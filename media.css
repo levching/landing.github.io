@@ -84,6 +84,7 @@
 		    -ms-flex-flow: column wrap;
 		        flex-flow: column wrap;
 		background: #333333;
+		background: #333333eb;
 		-webkit-transform: translateX(-100%);
 		    -ms-transform: translateX(-100%);
 		        transform: translateX(-100%);
