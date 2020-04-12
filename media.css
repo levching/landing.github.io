@@ -98,7 +98,7 @@
 		margin: 2px 0px;
 		color: #fff;
 	}
-	nav a:nth-child(4) {
+	.logo-a {
 		display: none;
 	}
 	nav a:after {
