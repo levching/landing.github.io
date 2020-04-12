@@ -81,12 +81,9 @@
 		height: 100vh;
 		-webkit-box-orient: vertical;
 		-webkit-box-direction: normal;
-		    -ms-flex-flow: column wrap !important;
-		        flex-flow: column wrap !important;
-		background: #333333eb !important;
-		display: -webkit-box !important;
-		display: -ms-flexbox !important;
-		display: flex !important;
+		    -ms-flex-flow: column wrap;
+		        flex-flow: column wrap;
+		background: rgb(51,51,51,0.92);
 		-webkit-transform: translateX(-100%);
 		    -ms-transform: translateX(-100%);
 		        transform: translateX(-100%);
