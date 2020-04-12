@@ -98,10 +98,7 @@
 		margin: 2px 0px;
 		color: #fff;
 	}
-	.logo-a {
-		display: none;
-	}
-	nav a:after {
+	.logo, .logo-a, nav a:after {
 		display: none;
 	}
 	.nav-active {
