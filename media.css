@@ -99,7 +99,7 @@
 		font-size: 25px;
 		padding: 15px 20px;
 		margin: 2px 0px;
-		color: #fff;
+		color: red;
 	}
 	.logo, .logo-a, nav a:after {
 		display: none;
