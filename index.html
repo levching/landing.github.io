@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Template</title>
+	<link rel="shortcut icon" type="image/jpg" href="img/logo.jpg">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="media.css">
+	<script>
+		function show_menu() {
+			document.getElementsByClassName('menu')[0].classList.toggle("menu-js");
+			document.getElementsByClassName('burger')[0].classList.toggle("burger-js");
+		}
+	</script>
+</head>
+<body>
+
+	<header>
+		<nav class="menu">
+			<a href="#" class="nav-active">Home</a>
+			<a href="#">About Us</a>
+			<a href="#">Team</a>
+			<a href="index.html"><img src="img/logo.jpg" class="logo" alt="logo"></a>
+			<a href="#">Services</a>
+			<a href="#">Blog</a>
+			<a href="#">Contact Us</a>
+		</nav>
+		<div class="burger" onclick="show_menu()">
+			<div class="burger-line"></div>
+			<div class="burger-line"></div>
+			<div class="burger-line"></div>
+		</div>
+	</header>
+
+	<main>
+		<h1>We build it with passion</h1>
+		<p>Just to be clear, we do this for fun not for you, just kidding.</p>
+		<button>Read More</button>
+		<div class="nav-circle">
+			<div class="circle"></div>
+			<div class="circle"></div>
+			<div class="circle"></div>
+		</div>
+	</main>
+
+	<section class="section-1">
+		<div class="main-line">
+			<div class="main-line-circle"></div>
+			<div class="main-line-circle"></div>
+			<div class="main-line-circle"></div>
+			<div class="main-line-circle"></div>
+		</div>
+		<div class="container">
+			<div class="con-section con-section-1">
+				<h1>2011</h1>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiselit. Vivamus varius nec diam vitae hendrerit bigus mit.</p>
+			</div>
+			<div class="con-section con-section-2">
+				<h1>2012</h1>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiselit. Vivamus varius nec diam vitae hendrerit bigus mit.
+				Begitus vit urna nulla.</p>
+			</div>
+			<div class="con-section con-section-3">
+				<h1>2013</h1>
+				<p>Sed at auctor sem, nec tincidunt elit. Pellentesque enim turpis, porttitor ac orci in, ultrices efficitur nisl. Ut odio libero, sodales a tellus eleifend, suscipit dapibus mi.</p>
+			</div>
+			<div class="con-section con-section-4">
+				<h1>2014</h1>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiselit. Vivamus varius nec diam vitae hendrerit bigus mit.
+				Begitus vit urna nulla.</p>
+			</div>
+		</div>
+	</section>
+
+	<section class="section-2">
+		<h1>This is our team</h1>
+		<h6>We are small but effective and ...</h6>
+		<div class="about-team">
+			<div class="team">
+				<img src="img/mark.png" class="team-img" alt="team">
+				<h2>Mark Once</h2>
+				<p>Designer & Front-End Developer</p>
+				<div class="social-team">
+					<img src="img/twitter.png" alt="twitter">
+					<img src="img/instagram.png" alt="instagram">
+				</div>
+			</div>
+			<div class="team">
+				<img src="img/justin.png" class="team-img" alt="team">
+				<h2>Justin Twice</h2>
+				<p>Founder & CEO</p>
+				<div class="social-team">
+					<img src="img/twitter.png" alt="twitter">
+					<img src="img/instagram.png" alt="instagram">
+				</div>
+			</div>
+			<div class="team">
+				<img src="img/antonio.png" class="team-img" alt="team">
+				<h2>Antonio</h2>
+				<p>Someone & Somewhere</p>
+				<div class="social-team">
+					<img src="img/twitter.png" alt="twitter">
+					<img src="img/instagram.png" alt="instagram">
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="section-3">
+		<h1>We provide you everything</h1>
+		<h6>Maybe not everything, but we provide you some stuff.</h6>
+		<div class="provide">
+			<div class="provide-section">
+				<img src="img/line-graph.png" alt="line-graph">
+				<h2>Some Analytics</h2>
+				<p>Aenean nisi lectus, convallis non lorem sit<br>amet, rhoncus malesuada justo</p>
+			</div>
+			<div class="provide-section">
+				<img src="img/hearth.png" alt="hearth">
+				<h2>We provide you love</h2>
+				<p>Aenean nisi lectus, convallis non lorem sit<br>amet, rhoncus malesuada justo</p>
+			</div>
+			<div class="provide-section">
+				<img src="img/cloud.png" alt="cloud">
+				<h2>And Some Cloud</h2>
+				<p>Aenean nisi lectus, convallis non lorem sit<br>amet, rhoncus malesuada justo</p>
+			</div>
+		</div>
+		<button>Visit Our Blog</button>
+	</section>
+
+	<footer>
+		<h1>Contac Us</h1>
+		<h6>We know what we need to do</h6>
+		<div class="contact">
+			<div class="contact-section">
+				<img src="img/phone.png" alt="phone">
+				<p>555-222-333</p>
+			</div>
+			<div class="contact-section">
+				<img src="img/position.png" alt="position">
+				<p>Here is some address</p>
+			</div>
+			<div class="contact-section">
+				<img src="img/mail.png" alt="mail">
+				<p>somemail@hotmail.com</p>
+			</div>
+		</div>
+		<form action="#" method="post">
+			<p><input type="text" name="fullname" placeholder="Full Name" required></p>
+			<p><input type="email" name="mail" placeholder="Email" required></p>
+			<p><input type="text" name="number" placeholder="Number" pattern="^[ 0-9]+$" required></p>
+			<p><textarea name="message" placeholder="Write your Message here..." required></textarea></p>
+			<p><button type="submit">Submit</button></p>
+		</form>
+		<p class="copyright">Copyright © Kenan Hamidic. All rights reserved.</p>
+	</footer>
+
+</body>
+</html>
