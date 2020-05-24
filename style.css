@@ -140,11 +140,7 @@ main p {
 	font-size: 16px;
 	color: #898888;
 }
-main a {
-	display: inline-block;
-	text-decoration: none;
-}
-main a, .section-3 button {
+main button, .section-3 button {
 	font-family: MontserratRegular, sans-serif;
 	font-size: 13px;
 	padding: 20px 50px;
@@ -160,9 +156,13 @@ main a, .section-3 button {
 	-o-transition: 0.2s color, 0.2s background;
 	transition: 0.2s color, 0.2s background;
 }
-main a:hover, .section-3 button:hover {
+main button:hover, .section-3 button:hover {
 	background: #000000;
 	color: #ffffff;
+}
+main button a {
+	display: inline-block;
+	text-decoration: none;
 }
 .nav-circle {
 	position: absolute;
