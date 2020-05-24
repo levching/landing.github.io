@@ -5,12 +5,6 @@
 body {
 	font-family: 'Roboto', sans-serif;
 }
-.p768 {
-	position: relative;
-	width: 384px;
-	margin: 0 auto;
-	overflow: hidden;
-}
 .up-menu {
 	position: relative;
 	width: 100%;
