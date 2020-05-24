@@ -10,7 +10,7 @@ body {
 	top: 0;
 	left: 0;
 	width: 100%;
-	height: 15vh;
+	height: 150px;
 	display: flex;
 	align-items: center;
 	background: #eeeeee;
@@ -18,6 +18,7 @@ body {
 	z-index: 1;
 }
 .up-menu h3 {
+	font-size: 30px;
 	margin-left: 20px;
 	color: #111;
 }
@@ -25,7 +26,7 @@ body {
 	box-sizing: border-box;
 	width: 100%;
 	height: 100vh;
-	padding: 15vh 20px;
+	padding: 150px 20px;
 	background: #eeeeee;
 }
 .message {
@@ -35,8 +36,8 @@ body {
 	font-family: 'Roboto', sans-serif;
 	box-sizing: border-box;
 	width: 100%;
-	height: 15vh;
-	font-size: 100%;
+	height: 150px;
+	font-size: 25px;
 	padding: 10px 50px 10px 50px;
 	background: #eeeeee;
 	color: #111;
