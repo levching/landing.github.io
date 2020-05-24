@@ -141,6 +141,7 @@ main p {
 	color: #898888;
 }
 main a, .section-3 button {
+	display: inline-block;
 	font-family: MontserratRegular, sans-serif;
 	font-size: 13px;
 	padding: 20px 50px;
