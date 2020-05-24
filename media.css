@@ -83,7 +83,7 @@
 		-webkit-box-direction: normal;
 		    -ms-flex-flow: column wrap;
 		        flex-flow: column wrap;
-		background: #333333;
+		background: rgb(51,51,51);
 		background: rgba(51,51,51,0.8);
 		-webkit-transform: translateX(-100%);
 		    -ms-transform: translateX(-100%);
