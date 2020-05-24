@@ -140,8 +140,11 @@ main p {
 	font-size: 16px;
 	color: #898888;
 }
-main a, .section-3 button {
+main a {
 	display: inline-block;
+	text-decoration: none;
+}
+main a, .section-3 button {
 	font-family: MontserratRegular, sans-serif;
 	font-size: 13px;
 	padding: 20px 50px;
