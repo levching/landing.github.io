@@ -160,10 +160,6 @@ main button:hover, .section-3 button:hover {
 	background: #000000;
 	color: #ffffff;
 }
-main button a {
-	display: inline-block;
-	text-decoration: none;
-}
 .nav-circle {
 	position: absolute;
 	/*bottom: 92px;*/
