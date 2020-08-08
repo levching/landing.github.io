@@ -3,6 +3,10 @@
 .lato {
 	font-family: 'Lato', sans-serif;
 }
+.p-lr {
+	padding-left: 15px;
+	padding-right: 15px;
+}
 
 /*=============================================================*/
 
