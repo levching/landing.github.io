@@ -132,7 +132,7 @@
 		align-items: center;
 	}
 	.content-box-shop {
-		width: 70%;
+		width: 90%;
 		margin-top: 50px;
 	}
 	.content-box-shop:first-child {
@@ -229,6 +229,9 @@
 	}
 	main h1 {
 		padding-top: 0;
+	}
+	.content-8 p {
+		width: 90%;
 	}
 }
 @media screen and (max-width: 508px) {
