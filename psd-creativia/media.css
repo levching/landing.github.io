@@ -1,3 +1,54 @@
+@media screen and (min-width: 1700px) {
+	.photo-left-main {
+		background-size: 90%;
+		left: -95px !important;
+	}
+	.photo-right-main {
+		right: -95px !important;
+		background-position: -50%;
+	}
+}
+@media screen and (min-width: 1600px) {
+	.photo-margin-inherit {
+		width: 515px;
+	}
+	.main-photo-main-right {
+		width: 515px;
+		height: 460px;
+	}
+	.photo-left-main {
+		background-size: 90%;
+		left: -85px;
+	}
+	.photo-right-main {
+		right: -85px;
+		background-position: -50%;
+	}
+	.photo-left-main, .photo-right-main {
+		width: 463px;
+		height: 414px;
+	}
+	.content-3-main-left, .content-3-main-right {
+		width: 35%;
+	}
+	main {
+		background-size: 100%;
+		background-position: center 30%;
+	}
+}
+@media screen and (min-width: 1500px) {
+	.box-person {
+		height: 460px;
+	}
+	.box-person-level-1 {
+		height: 340px;
+	}
+}
+@media screen and (max-width: 1600px) {
+	.content-3-main-left span, .content-3-main-right span {
+		font-size: 14px;
+	}
+}
 @media screen and (max-width: 1280px) {
 	header .menu {
 		margin-left: 35%;
@@ -154,6 +205,9 @@
 		display: block;
 		margin: 0 auto;
 		position: relative;
+	}
+	* {
+		opacity: 0.9;
 	}
 }
 @media screen and (max-width: 850px) {
