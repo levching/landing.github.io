@@ -206,9 +206,7 @@
 		margin: 0 auto;
 		position: relative;
 	}
-	* {
-		opacity: 0.9;
-	}
+
 }
 @media screen and (max-width: 850px) {
 	/*footer*/
@@ -227,7 +225,12 @@
 		width: auto !important;
 		box-sizing: border-box !important;
 		padding: 15px !important;
-		padding-bottom: 50px !important;
+		padding-bottom: 35px !important;
+		text-align: justify;
+	}
+	.content-1 p {
+		padding-left: 30px !important;
+		padding-right: 30px !important;
 	}
 	.content-4-box {
 		width: 95% !important;
