@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Vikings</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,400;0,700;1,300&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/slick.css">
+  <link rel="stylesheet" href="css/jquery.fancybox.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  
+  <header class="header">
+    <nav class="menu">
+      <span class="burger" onclick="showMenu()"><span class="burger__line"></span></span>
+      <ul class="menu__list">
+        <li class="menu__list-item">
+          <a class="menu__list-link" href="season-1.html">1 сезон</a></li>
+        <li class="menu__list-item">
+          <a class="menu__list-link" href="#">2 сезон</a></li>
+        <li class="menu__list-item">
+          <a class="menu__list-link" href="#">3 сезон</a></li>
+        <li class="menu__list-item">
+          <a class="menu__list-link" href="#">4 сезон</a></li>
+        <li class="menu__list-item">
+          <a class="menu__list-link" href="#">5 сезон</a></li>
+        <li class="menu__list-item">
+          <a class="menu__list-link" href="#">6 сезон</a></li>
+      </ul>
+    </nav>
+    <div class="logo">
+      <img class="logo__img" src="images/logo.png" alt="Логотип">
+    </div>
+  </header>
+
+  <section class="about section-padding">
+    <div class="container">
+      <h3 class="title">О сериале</h3>
+      <div class="about__inner">
+        <ul class="about__info_left">
+          <li class="about__info_right-item">Жанр
+            <span class="about__info_right-block">Историческая драма</span>
+          </li>
+          <li class="about__info_right-item">Сезонов
+            <span class="about__info_right-block">6</span>
+          </li>
+          <li class="about__info_right-item">Длительность серии
+            <span class="about__info_right-block">45 минут</span>
+          </li>
+          <li class="about__info_right-item">На экранах
+            <span class="about__info_right-block">С 3 марта 2013 по сей день</span>
+          </li>
+        </ul>
+        <div class="about__info_right">
+          <p class="about__info_right-item">
+            Викинги – шикарный исторический сериал, один из лучших в своем жанре, шоу может похвастаться огромной фан-базой, а также тем, что пробудил интерес к истории и возродил моду на викингов.
+          </p>
+          <p class="about__info_right-item">
+            «Викинги» созданы по заказу канала американского канала History, однако работали над ним канадцы и ирландцы. Сериал поражает масштабными сценами сражений, добротным и глубоким сценарием, а также максимальным вниманием к исторической эпохи. Авторы сериала потратили кучу времени и денег (бюджет первого сезона - $40 млн, дальше суммы возросли) на то, чтобы викинги и их современники выглядели в шоу так, какими они был в свое время – VIII – IX веках нашей эры. С другой стороны – отсутствие точных исторических фактов и (полу)легендарность многих событий позволили авторам сериала вольную трактовку многих событий.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="video">
+    <div class="container">
+      <h3 class="video__text">
+        <span class="video__text-item">The Storm</span>
+        Is Coming...
+      </h3>
+      <a class="video__link" data-fancybox href="https://www.youtube.com/watch?v=tx5Ne_TbWpQ&feature=youtu.be">Посмотреть трейлер сериала</a>
+    </div>
+  </section>
+
+  <section class="seasons section-padding">
+    <div class="container">
+      <h3 class="title">Все сезоны</h3>
+      <ol class="inner__seasons">
+        <li class="seasons__item" style="background-image: url('images/bg-season-1.jpg')">
+          <a class="seasons__item-link" href="season-1.html">Cмотреть</a>
+        </li>
+        <li class="seasons__item" style="background-image: url('images/bg-season-2.jpg')">
+          <a class="seasons__item-link" href="#">Cмотреть</a>
+        </li>
+        <li class="seasons__item" style="background-image: url('images/bg-season-3.jpg')">
+          <a class="seasons__item-link" href="#">Cмотреть</a>
+        </li>
+        <li class="seasons__item" style="background-image: url('images/bg-season-4.jpg')">
+          <a class="seasons__item-link" href="#">Cмотреть</a>
+        </li>
+        <li class="seasons__item" style="background-image: url('images/bg-season-5.jpg')">
+          <a class="seasons__item-link" href="#">Cмотреть</a>
+        </li>
+        <li class="seasons__item" style="background-image: url('images/bg-season-6.jpg')">
+          <a class="seasons__item-link" href="#">Cмотреть</a>
+        </li>
+      </ol>
+    </div>
+  </section>
+
+  <section class="heroes section-padding">
+    <div class="container">
+      <h3 class="title">Главные герои</h3>
+      <div class="inner__heroes">
+        <div class="heroes__img">
+          <img class="heroes__img-item" src="images/hero-1.jpg" alt="Герой">
+          <img class="heroes__img-item" src="images/hero-1.jpg" alt="Герой">
+          <img class="heroes__img-item" src="images/hero-1.jpg" alt="Герой">
+        </div>
+        <div class="heroes__info">
+          <div class="heroes__info-item">
+            <h3 class="heroes__info-title">Рагнар</h3>
+            <p class="heroes__info-text">
+              Рагна́р Лодбро́к (др.-сканд. Ragnarr Loðbrók) - полулегендарный скандинавский конунг из рода Инглингов, ключевой персонаж сериала.
+            </p>
+            <p class="heroes__info-text">
+              Умелый воин и амбициозный вождь, Рагнар на протяжении почти всей своей жизни следует пути викинга. Рассекая море в поисках боевой славы и наживы, он стремится обрести новые знания, открыть неизвестные земли и изменить нелегкую судьбу своего народа, живущего в суровых условиях Скандинавского полуострова
+            </p>
+          </div>
+          <div class="heroes__info-item">
+            <h3 class="heroes__info-title">Рагнар2</h3>
+            <p class="heroes__info-text">
+              Рагна́р Лодбро́к (др.-сканд. Ragnarr Loðbrók) - полулегендарный скандинавский конунг из рода Инглингов, ключевой персонаж сериала.
+            </p>
+            <p class="heroes__info-text">
+              Умелый воин и амбициозный вождь, Рагнар на протяжении почти всей своей жизни следует пути викинга. Рассекая море в поисках боевой славы и наживы, он стремится обрести новые знания, открыть неизвестные земли и изменить нелегкую судьбу своего народа, живущего в суровых условиях Скандинавского полуострова
+            </p>
+          </div>
+          <div class="heroes__info-item">
+            <h3 class="heroes__info-title">Рагнар3</h3>
+            <p class="heroes__info-text">
+              Рагна́р Лодбро́к (др.-сканд. Ragnarr Loðbrók) - полулегендарный скандинавский конунг из рода Инглингов, ключевой персонаж сериала.
+            </p>
+            <p class="heroes__info-text">
+              Умелый воин и амбициозный вождь, Рагнар на протяжении почти всей своей жизни следует пути викинга. Рассекая море в поисках боевой славы и наживы, он стремится обрести новые знания, открыть неизвестные земли и изменить нелегкую судьбу своего народа, живущего в суровых условиях Скандинавского полуострова
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <p class="copy">Сериал «Викинги». Правами на сериал владеет канал History.</p>
+    </div>
+  </footer>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="js/slick.min.js"></script>
+  <script src="js/jquery.fancybox.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
