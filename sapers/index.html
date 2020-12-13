@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Saper</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+	<div class="flex">
+		<div class="menu">
+			<button>Новичок</button>
+			<button>Средний</button>
+			<button>Эксперт</button>
+			<button onclick="mobileSession()">Phone</button>
+			<button onclick="location.reload()">Начать заново</button>
+			<div class="block-flag">
+				<div class="block-flag__inner">
+					<img class="block-flag__img" src="flag.svg" alt="svg">
+					<span class="block-flag__number">10</span>
+				</div>
+			</div>
+		</div>
+		<div class="main" id="main" oncontextmenu="return false"></div>
+	</div>
+
+	<div class="pop-up-retry">
+		<h3 class="pop-up-retry__title">Ой, произошёл взрыв!</h3>
+		<button class="pop-up-retry__btn" onclick="location.reload()">Начать заново</button>
+	</div>
+
+	<script>
+		for(let i = 0; i < 81; i++) {
+			document.getElementById("main").innerHTML += '<div class="cube" onclick="show(' + i + ')" oncontextmenu="pcm(' + i + '); return false"></div>';
+		}
+	</script>
+	<script src="script.js"></script>
+
+</body>
+</html>
