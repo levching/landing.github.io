@@ -206,10 +206,12 @@ function mobileSession() {
 		for(let i = 0; 81 > i; i++) {
 			document.getElementsByClassName('cube')[i].setAttribute("onclick", "show(" + i + ")");
 		}
+		document.getElementsByClassName('phone-btn')[0].style.background = "";
 	}
 	else {
 		for(let i = 0; 81 > i; i++) {
 			document.getElementsByClassName('cube')[i].setAttribute("onclick", "pcm(" + i + ")");
 		}
+		document.getElementsByClassName('phone-btn')[0].style.background = "url('flag.svg') no-repeat center center / 80%";
 	}
 }
