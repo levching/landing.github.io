@@ -2,6 +2,7 @@
 <html>
 <head>
 	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Saper</title>
 	<link rel="stylesheet" href="style.css">
 </head>
@@ -12,7 +13,6 @@
 			<button>Новичок</button>
 			<button>Средний</button>
 			<button>Эксперт</button>
-			<button onclick="mobileSession()">Phone</button>
 			<button onclick="location.reload()">Начать заново</button>
 			<div class="block-flag">
 				<div class="block-flag__inner">
@@ -23,6 +23,7 @@
 		</div>
 		<div class="main" id="main" oncontextmenu="return false"></div>
 	</div>
+	<button class="phone-btn" onclick="mobileSession()"></button>
 
 	<div class="pop-up-retry">
 		<h3 class="pop-up-retry__title">Ой, произошёл взрыв!</h3>
