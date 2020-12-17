@@ -147,7 +147,7 @@ function showEmptyClick(number) {
 
 /*=================function click=================*/
 function show(number) {
-	if(cube[number].classList.contains("cube-pcm-bomb")) {
+	if(cube[number].classList.contains("cube-pcm-bomb") || cube[number].classList.contains("cube-show")) {
 		return 0;
 	}
 	for(let i = 0; i < bombs.length; i++) {
