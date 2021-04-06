@@ -282,7 +282,7 @@
 	content: 'x';
 	position: absolute;
 	font-size: 20px;
-	top: 0;
+	top: -10px;
 	right: -5px;
 }
 .main-span span:nth-child(2):after {
