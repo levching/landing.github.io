@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Крестики и Нолики</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script src="script.js"></script>
+</head>
+<body>
+	<div class="all">
+		<p class="tablo">Счёт <span class="main-span"><span id="cout_krestik">0</span><span>:</span><span id="cout_nolik">0</span></span></p>
+		<div class="main">
+
+			<div class="line-cube">
+				<div class="cube" onclick=" section = 0; run();">
+					<div class="krestik"></div>
+					<div class="nolik"></div>
+				</div>
+				<div class="cube" onclick=" section = 1; run();">
+					<div class="krestik"></div>
+					<div class="nolik"></div>
+				</div>
+				<div class="cube" onclick="section = 2; run();">
+					<div class="krestik"></div>
+					<div class="nolik"></div>
+				</div>
+			</div>
+
+			<div class="line-cube">
+				<div class="cube" onclick="section = 3; run();">
+					<div class="krestik"></div>
+					<div class="nolik"></div>
+				</div>
+				<div class="cube" onclick="section = 4; run();">
+					<div class="krestik"></div>
+					<div class="nolik"></div>
+				</div>
+				<div class="cube" onclick="section = 5; run();">
+					<div class="krestik"></div>
+					<div class="nolik"></div>
+				</div>
+			</div>
+
+			<div class="line-cube">
+				<div class="cube" onclick="section = 6; run();">
+					<div class="krestik"></div>
+					<div class="nolik"></div>
+				</div>
+				<div class="cube" onclick="section = 7; run();">
+					<div class="krestik"></div>
+					<div class="nolik"></div>
+				</div>
+				<div class="cube" onclick="section = 8; run();">
+					<div class="krestik"></div>
+					<div class="nolik"></div>
+				</div>
+			</div>
+
+			<div class="line line1"></div>
+			<div class="line line2"></div>
+			<div class="line line3"></div>
+			<div class="line line4"></div>
+
+			<div class="winner-line wl"></div>
+			<div class="winner-line2 wl"></div>
+			<div class="winner-line3 wl"></div>
+			<div class="winner-line4 wl"></div>
+			<div class="winner-line5 wl"></div>
+			<div class="winner-line6 wl"></div>
+			<div class="winner-line7 wl"></div>
+			<div class="winner-line8 wl"></div>
+
+			<div class="game-over">
+				<div>
+					<h3 id="player_name_winner"></h3>
+					<button onclick="retry()">Начать заново</button>
+				</div>
+			</div>
+
+		</div>
+	</div>
+</body>
+</html>
