@@ -1,0 +1,94 @@
+body {
+    font-family: sans-serif;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(31, 38, 44);
+}
+.widget {
+    position: relative;
+    display: inline-block;
+    background-color: #3b3b48;
+    line-height: 35px;
+    color: #fff;
+    border-radius: 30px;
+    padding-left: 20px;
+    height: 35px;
+    padding-right: 45px;
+    cursor: pointer;
+}
+.widget--small {
+    font-size: 12px;
+}
+.widget__object {
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    background-color: #3479b5;
+    top: 0;
+    right: 0;
+    border-radius: 30px;
+    transition: 0.4s;
+}
+.widget__object::before, .widget__object::after {
+    content: '';
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    top: 50%;
+    left: 50%;
+    transform-origin: left;
+    transform: translateX(-50%) translateY(-50%);
+    backface-visibility: hidden;
+    background-image: url('../images/wallet-icon.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    transition: 0.4s;
+    animation: change-wallet 4s infinite;
+}
+.widget__object::after {
+    background-image: url('../images/plus-icon.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    opacity: 0;
+    animation-delay: 2s;
+    animation: change-plus 4s infinite;
+}
+@keyframes change-wallet {
+    50% {
+        opacity: 0;
+        transform: rotateY(180deg) translateX(-50%) translateY(-50%);
+    }
+}
+@keyframes change-plus {
+    50% {
+        opacity: 1;
+    }
+}
+.widget__hide {
+    text-align: center;
+    opacity: 0;
+    font-size: 12px;
+    transform: scale(0);
+    transition: .2s;
+}
+.widget:hover .widget__object {
+    width: 100%;
+}
+.widget:hover .widget__object::before, .widget:hover .widget__object::after {
+    left: 15%;
+    transform-origin: initial;
+    transform: translateX(0) translateY(-50%) rotate(360deg);
+    opacity: 1;
+    animation: none;
+}
+.widget:hover .widget__object::before {
+    opacity: 0;
+}
+.widget:hover .widget__hide {
+    opacity: 1;
+    transform: scale(1);
+}
